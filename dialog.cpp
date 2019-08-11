@@ -66,7 +66,7 @@ void Dialog::on_openButton_clicked()
         //设置数据位数
         switch(ui->BitNumBox->currentIndex())
         {
-        case 8: serial->setDataBits(QSerialPort::Data8); break;
+        case 3: serial->setDataBits(QSerialPort::Data8); break;
         default: break;
         }
         //设置奇偶校验
